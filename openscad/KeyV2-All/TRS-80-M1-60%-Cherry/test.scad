@@ -1,0 +1,12 @@
+//text("10", font="TRS-80-M1", size=10);
+//text("10", font="TRS-80-M1 Bold", size=10);
+//text("10", font="TRS-80-M1:style=Regular", size=10);
+//text("10", font="DejaVu Sans Mono:style=Bold", size=10);
+translate([0, 0, 0])    text("ABCDEFGHIHKLMNOPQRSTUVWXYZ", font="Wingdings", size=20);
+translate([0, -25, 0])  text("ABCDEFGHIHKLMNOPQRSTUVWXYZ", font="Webdings", size=20);
+translate([0, -50, 0])  text("ABCDEFGHIHKLMNOPQRSTUVWXYZ", font="Arial:style=Bold", size=20);
+translate([0, -75, 0])  text("ABCDEFGHIHKLMNOPQRSTUVWXYZ 0123456789 !@#$%^&*()_+ ;:'\"<>,.{}[]|\\  -- Nothing", font="TRS80M1", size=20);
+translate([0, -100, 0]) text("ABCDEFGHIHKLMNOPQRSTUVWXYZ 0123456789 !@#$%^&*()_+ ;:'\"<>,.{}[]|\\  -- Regular", font="TRS80M1:style=Regular", size=20);
+translate([0, -125, 0]) text("ABCDEFGHIHKLMNOPQRSTUVWXYZ 0123456789 !@#$%^&*()_+ ;:'\"<>,.{}[]|\\ -- Medium", font="TRS80M1:style=Medium", size=20);
+translate([0, -150, 0]) text("ABCDEFGHIHKLMNOPQRSTUVWXYZ 0123456789 !@#$%^&*()_+ ;:'\"<>,.{}[]|\\ -- Bold", font="TRS80M1:style=Bold", size=20);
+translate([0, -175, 0]) text("ABCDEFGHIHKLMNOPQRSTUVWXYZ 0123456789 -- DejaVu Bold", font="DejaVu Sans Mono:style=Bold", size=20);
