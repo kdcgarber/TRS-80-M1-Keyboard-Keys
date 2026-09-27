@@ -36,7 +36,7 @@ I don’t have a TRS-80 Alps keyboard to test those on, only the newer "+" shape
 </table>  
 
 <br>
-The keyboard on the left is my Amazon ordered $15 USB keyboard with the new 3d printed keys, next to my first M1 with my replacement 3d PLA keycaps filled then with white UV resin.
+The keyboard on the top is my Amazon ordered $15 USB keyboard with the new 3d printed keys, next to my first M1 with my replacement 3d PLA keycaps filled then with white UV resin.
 Both came out very well, though not profesional purchased keys.
  
 ## Content in repository
