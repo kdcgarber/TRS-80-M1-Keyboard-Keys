@@ -1,6 +1,6 @@
 ![TRS-80-M1-Keyboard-Keys](/images/trs-80MotherboardKeyBoard3.jpg?raw=true "Header")
 
-# TRS-80 Model 1 Keyboard Key caps 
+# TRS-80 Model 1 Keyboard Keycaps 
 This project is my way of 3D printing my own keycaps for my TRS-80 M1. <br>
 I have an M1 motherboard that had no case or keyboard and needed a place to live. <br>
 All of the parts needed to do this have been reproduced already by others, but I wanted to play a little more on my own. <br>
@@ -19,9 +19,15 @@ Because of that, I never went back to refine the Bold version’s glyph shapes. 
 These keys are inexpensive to reproduce if you have access to a 3D printer.  <br>
 The estimated cost of printing a full set in a single-color PLA on my own machine is about $3.37, making them very affordable. <br>
 
-The keys are not really cherry style though they fit the classic + shaped key switches.
-I labeled them as cherry because I started with a 60% keyboard that I was replacing that had cherry keycaps. 
-The new look is a mix, but maybe more in the DSA keycap style.
+The keys are not really cherry style though they fit the classic + shaped key switches. <br>
+I labeled them as cherry because I started with a 60% keyboard that I was replacing that had cherry keycaps.  <br>
+The new look is a mix, but maybe more in the DSA keycap style. <br>
+
+There are two styles for the keys with several variations, the Hi-Tek and the Alps. <br>
+The Alps I went with a rectangular pattern instead of round stems. <br>
+The round stems were a little weaker in design, so I went with the rectangular “+" shape that seemed to work the best. <br>
+I don’t have a TRS-80 Alps keyboard to test those on, only the newer "+" shaped keyboards. <br>
+
 
 <table>
   <tr>
@@ -45,37 +51,37 @@ Both came out very well, though not profesional purchased keys.
 	│
  	📂 openscad/KeyV2-All
 	│
-	├─📂 TRS-80-1978-M1/				        -- 1978 style M1 Keys with square stems
+	├─📂 TRS-80-1978-M1/				        -- 1978 style M1 Keys with (HI-Tek) square stems
 	│    ├── trs-80-1978-KeyCaps-FromSTL.3mf	-- My edited version I use to print. it's all ready to print more keys
 	│    ├── trs-80-1978-KeyCaps.stl		    -- An outputted .stl file with fonts just inset in one color
 	│    ├── trs-80-1978-KeyCaps.3mf		    -- An outputted .3mf file with 2 colors if you want to print in 2 colors
 	│    └── trs-80-1978-KeyCaps.scad		    -- Run this OpenSCAD file to edit or generate the current keys
 	│
-	├─📂 TRS-80-1978-M1-KEYPAD/			            -- M1 Key Pad Keys with square stems
+	├─📂 TRS-80-1978-M1-KEYPAD/			            -- M1 Key Pad Keys with (Hi-Tek) square stems
 	│    ├── trs-80-1978-KeyCaps-KeyPad-FromSTL.3mf	-- My edited version I use to print. it's all ready to print more keys
 	│    ├── trs-80-1978-KeyCaps-KeyPad.stl		    -- An outputted .stl file with fonts just inset in one color
 	│    ├── trs-80-1978-KeyCaps-KeyPad.3mf		    -- An outputted .3mf file with 2 colors if you want to print in 2 colors
 	│    └── trs-80-1978-KeyCaps-KeyPad.scad	    -- Run this OpenSCAD file to edit or generate the current keys
 	│
-	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeys    				-- Similar the the new Cherry key style switches, but only the keys for a new replacment M1 keyboard with the standard + stem connector 
+	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeys    				-- Similar the new (ALPS) Cherry key style switches, but only the keys for a new replacment M1 keyboard with the standard + stem connector 
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeys-FromSTL.3mf	-- My edited version I use to print. it's all ready to print more keys
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeys.stl			-- An outputted .stl file with fonts just inset in one color
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeys.3mf			-- An outputted .3mf file with 2 colors if you want to print in 2 colors
 	│    └── TRS-80-1978-M1-StandardLayoutCherryKeys.scad			-- Run this OpenSCAD file to edit or generate the current keys
 	│
-	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeysFlat/			        -- M1 low profile keys with the standard + stem connector 
+	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeysFlat/			        -- M1 low profile (ALPS) keys with the standard + stem connector 
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysFlat-FromSTL.3mf	-- My edited version I use to print. it's all ready to print more keys
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysFlat.stl		    -- An outputted .stl file with fonts just inset in one color
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysFlat.3mf		    -- An outputted .3mf file with 2 colors if you want to print in 2 colors
 	│    └── TRS-80-1978-M1-StandardLayoutCherryKeysFlat.scad	    	-- Run this OpenSCAD file to edit or generate the current keys
 	│
-	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems    				-- Similar to the new Cherry key style switches but the stems are rotated for the standard + stem connector 
+	├─📂 TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems    				-- Similar to the new (ALPS) Cherry key style switches but the stems are rotated for the standard + stem connector 
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems-FromSTL.3mf	-- My edited version I use to print. it's all ready to print more keys
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems.stl			-- An outputted .stl file with fonts just inset in one color
 	│    ├── TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems.3mf			-- An outputted .3mf file with 2 colors if you want to print in 2 colors
 	│    └── TRS-80-1978-M1-StandardLayoutCherryKeysRotatedStems.scad			-- Run this OpenSCAD file to edit or generate the current keys
 	│    
-	└─📂 TRS-80-M1-60%-Cherry					                -- M1 Keys for a new Cherry key style key switches with the standard + stem connector 
+	└─📂 TRS-80-M1-60%-Cherry					                -- M1 Keys for a new (ALPS) Cherry key style key switches with the standard + stem connector 
 	     ├── trs-80-60% Cherry Key Caps-From-STL.3mf			-- My edited version I use to print. it's all ready to print more keys
 	     ├── trs-80-60% Cherry Key Caps.stl				        -- An outputted .stl file with fonts just inset in one color
 	     ├── trs-80-60% Cherry Key Caps.3mf				        -- An outputted .3mf file with 2 colors if you want to print in 2 colors
@@ -118,7 +124,7 @@ I then set the key under the UV light right away to keep the resin from bleeding
 
 
 <pre>
-1 Original 1978 M1 with square keycap stems
+1 Original 1978 M1 with square (Hi-Tek) keycap stems
 2 Cherry key horizontal and keycap with relief glyphs filled with white resin
 3 Keycaps with vertical  layout (this keycap has not been filled with white resin yet)
 4 Horizontal black PLA keycaps from .mf3 printed including white PLA glyphs 
