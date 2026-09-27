@@ -138,6 +138,10 @@ I then set the key under the UV light right away to keep the resin from bleeding
 	<td><img src="https://github.com/kdcgarber/TRS-80-M1-Keyboard-Keys/blob/main/images/m1keys-onplate2.jpg" width="300" height="300"></td>
 	<td><img src="https://github.com/kdcgarber/TRS-80-M1-Keyboard-Keys/blob/main/images/trs-80-1978-KeyCapsSliceResults.png" width="500" height="300"></td>
   </tr>
+    <tr>
+	<td><img src="https://github.com/kdcgarber/TRS-80-M1-Keyboard-Keys/blob/main/images/M1-1978.jpg" width="300" height="300"></td>
+	<td><img src="https://github.com/kdcgarber/TRS-80-M1-Keyboard-Keys/blob/main/images/m1key-removing-supports.jpg" width="500" height="300"></td>
+  </tr>
 </table>
 
 ### 1978 M1 KEYPAD
